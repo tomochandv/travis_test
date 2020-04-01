@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
     "build": "babel src -d dist --copy-files",
     "dev": "nodemon ./index.js --exec babel-node"
   },
